@@ -1,0 +1,135 @@
+/* Write your CSS here */
+.loader {
+  display: flex;
+  justify-content: center;
+}
+.product-item-details-container {
+  display: flex;
+  padding: 35px;
+  width: 70%;
+}
+.product-images {
+  height: 75vh;
+  width: 30vw;
+  border-radius: 10px;
+}
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.product-title {
+  font-family: 'Roboto';
+  color: #616e7c;
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.product-price {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.rating-container {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 6px;
+  width: 6vw;
+  height: 6vh;
+  align-items: center;
+  margin-right: 15px;
+  justify-content: space-between;
+}
+.star-img {
+  height: 3vh;
+}
+.row-container {
+  display: flex;
+  align-items: center;
+}
+.total-reviews-count {
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin: 0px;
+  font-size: 14px;
+}
+.product-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
+}
+.available {
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-top: 0px;
+  font-weight: 600;
+}
+.availability {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 400;
+}
+.seperator {
+  align-self: flex-start;
+  width: 50vw;
+  color: #475569;
+  border-style: solid;
+  border-width: 1px;
+}
+.inc-dec-btn-container {
+  display: flex;
+}
+.btns {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 10px;
+}
+.count {
+  font-family: 'Roboto';
+  color: #475569;
+}
+.add-cart-btn {
+  border-radius: 5px;
+  font-family: 'Roboto';
+  background-color: #3b82f6;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  width: 12vw;
+  cursor: pointer;
+}
+.col-container {
+  display: flex;
+  flex-direction: column;
+}
+.similar-products-heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 500;
+  padding: 35px;
+  margin: 0px;
+}
+.similar-products-row-container {
+  display: flex;
+  padding: 35px;
+  margin: 0px;
+}
+.error-img {
+  height: 50vh;
+}
+.failure-view-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.not-found-heading {
+  font-family: 'Roboto';
+  color: #171f46;
+}
